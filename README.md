@@ -9,5 +9,5 @@ DDPG was not considered as it is the same concept as SAC but slower. Hence, only
 ![](BipedalWalker-PPO-VectorizedEnv/images/bwalker.png)
 
 ### Results
-SAC showed the most performance, out of the two. With an average score of **300** at **400 episodes**. while PPO only reached a score of **300** at **450 episodes**.
+Out of SAC and PPO, SAC showed the most promise. With an average score of **300** at **400 episodes**. while PPO only reached a score of **300** at **450 episodes**.
 I have yet to test out discrete delta PPO. But for now am satisfied with just these results.
