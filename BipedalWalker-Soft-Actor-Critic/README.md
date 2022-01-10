@@ -43,10 +43,6 @@ In the **agent.update_parameters** we get the batch of (_state, action, reward, 
 
 
 
-### Video
-
-See video [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4) demonsrating 
-4 different BipedalWalker-walks related with 4 different sets of SAC-hyperparameters.
 
 
 
