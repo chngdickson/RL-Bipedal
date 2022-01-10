@@ -6,7 +6,7 @@ This github is simply for comparing algorithms to be used in another project, [t
 
 DDPG was not considered as it is the same concept as SAC but slower. Hence, only SAC and PPO is considered.
 
-![](BipedalWalker-Soft-Actor-Critic/images/bwalker.png)
+![](BipedalWalker-PPO-VectorizedEnv/images/bwalker.png)
 
 ### Results
 SAC showed the most performance, out of the two. With an average score of **300** at **400 episodes**. while PPO only reached a score of **300** at **450 episodes**.
