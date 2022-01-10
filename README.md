@@ -1,7 +1,13 @@
 ### Introduction
 
-Solving the environment require an average total reward of over 300 over 100 consecutive episodes.
-Training of BipedalWalker is considered as [difficult task](https://ctmakro.github.io/site/on_learning/rl/bipedal.html), in particular, it is very difficult to train BipedalWalker by DDPG and PPO (with one agent). In this directory we solve the environment 
-in **450** episodes by usage of the __PPO (with multi-agent)__ algorithm, see [Multi-Agent RL](https://bair.berkeley.edu/blog/2018/12/12/rllib/) or [Baseline doc](https://stable-baselines.readthedocs.io/en/master/modules/ppo2.html#note). For other solutions (based on the single agent) see
+Training BipedalWalker is considered a [difficult task](https://ctmakro.github.io/site/on_learning/rl/bipedal.html, it is very difficult to train BipedalWalker by SAC, DDPG, PPO, TD3 (with one agent). It is simply easier to solve it using multiple environments.
+
+This github is simply for comparing algorithms to be used in another project, [training_spot](https://github.com/chngdickson/training_spot). This environment will be much harder to run as I still currently unable to create a vectorized environment using webots.
+
+DDPG was not considered as it is the same concept as SAC but slower. Hence, only SAC and PPO is considered.
 
 ![](images/bwalker.png)
+
+### Results
+SAC showed the most performance, out of the two. With an average score of **300** at **400 episodes**. while PPO only reached a score of **300** at **450 episodes**.
+I have yet to test out discrete delta PPO. But for now am satisfied with just these results.
