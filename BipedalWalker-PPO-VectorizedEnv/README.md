@@ -8,7 +8,7 @@
 
 ### Environment
 
-The environment is simulated as list of 16 **gym** environments. They run in 16     
+Just like the SAC env, This environment is simulated as list of 16 **gym** environments. They run in 16     
 subprocesses adopted from [openai baseline](https://github.com/openai/baselines):
 
      num_processes=16
@@ -27,7 +27,7 @@ _eps=0.2_ # the clipping parameter using for calculation of the _action loss_
 
 ### Training the Agent
 
-The agent completed training in around **3 hours**. Averaging a score of **295**. 
+The agent completed training in **3 and a half hours**. Averaging a score of **295**. 
 
 
 
