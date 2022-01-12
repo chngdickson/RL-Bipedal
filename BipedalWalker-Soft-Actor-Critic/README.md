@@ -16,15 +16,7 @@ by usage of the __SAC__ algorithm, see the basic paper [SAC: Off-Policy Maximum 
 * [pytorch 1.0.1](https://pytorch.org/)
 * [gym 0.13.1](https://github.com/openai/gym)
      
-     
-### Hyperparameters
-
-Agent uses the following hyperparameters:
-
-_gamma=0.99_ # discount    
-_mini_batch=256_ # optimizer and backward mechisms work after sampling BATCH elements   
-_lr = 0.0001_ # learning rate    
-_eps=0.2_ # the clipping parameter using for calculation of the _action loss_   
+    
 
 ### Entropy regularization
 
