@@ -19,15 +19,15 @@ subprocesses adopted from [openai baseline](https://github.com/openai/baselines)
 Agent uses the following hyperparameters:
 
 _gamma=0.99_ # discount    
-_epoch = 16_ # the parameter in the update mexanism of the PPO   
-_mini_batch=16_ # optimizer and backward mechisms work after sampling BATCH elements   
+_epoch = 16_ # the parameter in the update
+_mini_batch=16_ # self-explanatory
 _lr = 0.001_ # learning rate    
 _eps=0.2_ # the clipping parameter using for calculation of the _action loss_   
 
 
 ### Training the Agent
 
-The agent completed training in **3 and a half hours**. Averaging a score of **295**. 
+The agent completed training in **3 and a half hours**. Averaging a score of **300**. 
 
 
 
